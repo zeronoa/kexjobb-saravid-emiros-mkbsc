@@ -1,0 +1,366 @@
+All hierarchical versions of the Submarine game
+States = (start (not represented), 0 = obstacle, 1 = free, 2 = crash, 3 = surface)
+=================================
+Testing - and [0, 1]
+Log:
+G0K:	5 nodes
+G1K:	5 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 2]
+Log:
+G0K:	5 nodes
+G1K:	7 nodes
+G2K:	11 nodes
+G3K:	13 nodes
+G4K:	13 nodes (isomorphic)
+G5K:	13 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 3]
+Log:
+G0K:	5 nodes
+G1K:	7 nodes
+G2K:	9 nodes
+G3K:	10 nodes
+G4K:	10 nodes (isomorphic)
+G5K:	10 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [1, 2]
+Log:
+G0K:	5 nodes
+G1K:	7 nodes
+G2K:	11 nodes
+G3K:	12 nodes
+G4K:	12 nodes (isomorphic)
+G5K:	12 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [1, 3]
+Log:
+G0K:	5 nodes
+G1K:	7 nodes
+G2K:	9 nodes
+G3K:	9 nodes (isomorphic)
+G4K:	9 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [2, 3]
+Log:
+G0K:	5 nodes
+G1K:	7 nodes
+G2K:	8 nodes
+G3K:	8 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 1, 2]
+Log:
+G0K:	5 nodes
+G1K:	8 nodes
+G2K:	10 nodes
+G3K:	13 nodes
+G4K:	15 nodes
+G5K:	15 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 1, 3]
+Log:
+G0K:	5 nodes
+G1K:	8 nodes
+G2K:	11 nodes
+G3K:	13 nodes
+G4K:	13 nodes (isomorphic)
+G5K:	13 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	10 nodes
+G2K:	14 nodes
+G3K:	15 nodes
+G4K:	15 nodes (isomorphic)
+G5K:	15 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	10 nodes
+G2K:	14 nodes
+G3K:	14 nodes (isomorphic)
+G4K:	14 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	17 nodes
+G3K:	17 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1] and [0, 1, 2]
+Log:
+G0K:	5 nodes
+G1K:	6 nodes
+G2K:	7 nodes
+G3K:	7 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1] and [0, 1, 3]
+Log:
+G0K:	5 nodes
+G1K:	6 nodes
+G2K:	8 nodes
+G3K:	8 nodes (isomorphic)
+G4K:	8 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	9 nodes
+G2K:	11 nodes
+G3K:	11 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1] and [0, 1][2, 3]
+Log:
+G0K:	5 nodes
+G1K:	5 nodes
+G2K:	6 nodes
+G3K:	8 nodes
+G4K:	9 nodes
+G5K:	9 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 2] and [0, 1, 2]
+Log:
+G0K:	5 nodes
+G1K:	10 nodes
+G2K:	14 nodes
+G3K:	15 nodes
+G4K:	15 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 2] and [0, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	15 nodes
+G3K:	15 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 2] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	14 nodes
+G2K:	17 nodes
+G3K:	17 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 2] and [0, 2][1, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	17 nodes
+G3K:	17 nodes (isomorphic)
+G4K:	17 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 3] and [0, 1, 3]
+Log:
+G0K:	5 nodes
+G1K:	10 nodes
+G2K:	13 nodes
+G3K:	13 nodes (isomorphic)
+G4K:	13 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 3] and [0, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	15 nodes
+G3K:	15 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	14 nodes
+G2K:	17 nodes
+G3K:	17 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 3] and [0, 3][1, 2]
+Log:
+G0K:	5 nodes
+G1K:	11 nodes
+G2K:	16 nodes
+G3K:	17 nodes
+G4K:	17 nodes (isomorphic)
+G5K:	17 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 2] and [0, 1, 2]
+Log:
+G0K:	5 nodes
+G1K:	10 nodes
+G2K:	11 nodes
+G3K:	15 nodes
+G4K:	18 nodes
+G5K:	18 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 2] and [1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	13 nodes
+G2K:	16 nodes
+G3K:	16 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 2] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	15 nodes
+G2K:	20 nodes
+G3K:	20 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 2] and [0, 3][1, 2]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	18 nodes
+G3K:	19 nodes
+G4K:	19 nodes (isomorphic)
+G5K:	19 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 3] and [0, 1, 3]
+Log:
+G0K:	5 nodes
+G1K:	11 nodes
+G2K:	15 nodes
+G3K:	15 nodes (isomorphic)
+G4K:	15 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 3] and [1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	13 nodes
+G2K:	16 nodes
+G3K:	16 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	15 nodes
+G2K:	19 nodes
+G3K:	19 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 3] and [0, 2][1, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	17 nodes
+G3K:	19 nodes
+G4K:	19 nodes (isomorphic)
+G5K:	19 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [2, 3] and [0, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	15 nodes
+G3K:	15 nodes (isomorphic)
+G4K:	15 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [2, 3] and [1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	14 nodes
+G3K:	14 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [2, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	14 nodes
+G2K:	17 nodes
+G3K:	17 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [2, 3] and [0, 1][2, 3]
+Log:
+G0K:	5 nodes
+G1K:	8 nodes
+G2K:	11 nodes
+G3K:	11 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1, 2] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	10 nodes
+G2K:	11 nodes
+G3K:	11 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	12 nodes
+G2K:	13 nodes
+G3K:	13 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 2, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	16 nodes
+G2K:	17 nodes
+G3K:	17 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 2, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	17 nodes
+G2K:	20 nodes
+G3K:	20 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1][2, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	8 nodes
+G2K:	9 nodes
+G3K:	9 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 2][1, 3] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	17 nodes
+G2K:	19 nodes
+G3K:	19 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 3][1, 2] and [0, 1, 2, 3]
+Log:
+G0K:	5 nodes
+G1K:	17 nodes
+G2K:	20 nodes
+G3K:	20 nodes (isomorphic with equivalent observations)
+Iso type: 2

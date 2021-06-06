@@ -1,0 +1,522 @@
+All hierarchical versions of the Trains game
+States = (1, 2, 3, 4)
+If an iteration took more than 30 seconds it was cancelled and the previous iterations were logged
+Max iterations 15
+=================================
+Testing - and [1, 2]
+Log:
+G0K:	4 nodes
+G1K:	6 nodes
+G2K:	8 nodes
+G3K:	13 nodes
+G4K:	19 nodes
+G5K:	34 nodes
+G6K:	54 nodes
+G7K:	88 nodes
+G8K:	168 nodes
+G9K:	296 nodes
+G10K:	568 nodes
+G11K:	996 nodes
+G12K:	1923 nodes
+G13K:	3381 nodes
+G14K:	6544 nodes
+G15K:	11522 nodes
+Iso type: 0
+=================================
+Testing - and [1, 3]
+Log:
+G0K:	4 nodes
+G1K:	4 nodes (isomorphic)
+G2K:	4 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [1, 4]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	7 nodes
+G3K:	12 nodes
+G4K:	18 nodes
+G5K:	33 nodes
+G6K:	53 nodes
+G7K:	87 nodes
+G8K:	167 nodes
+G9K:	295 nodes
+G10K:	567 nodes
+G11K:	995 nodes
+G12K:	1922 nodes
+G13K:	3380 nodes
+G14K:	6543 nodes
+G15K:	11521 nodes
+Iso type: 0
+=================================
+Testing - and [2, 3]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	5 nodes (isomorphic)
+G3K:	5 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [2, 4]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	5 nodes (isomorphic)
+G3K:	5 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [3, 4]
+Log:
+G0K:	4 nodes
+G1K:	4 nodes (isomorphic)
+G2K:	4 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [1, 2, 3]
+Log:
+G0K:	4 nodes
+G1K:	10 nodes
+G2K:	21 nodes
+G3K:	68 nodes
+G4K:	163 nodes
+G5K:	949 nodes
+G6K:	33249 nodes
+Iso type: 0
+=================================
+Testing - and [1, 2, 4]
+Log:
+G0K:	4 nodes
+G1K:	6 nodes
+G2K:	8 nodes
+G3K:	15 nodes
+G4K:	23 nodes
+G5K:	44 nodes
+G6K:	72 nodes
+G7K:	120 nodes
+G8K:	230 nodes
+G9K:	406 nodes
+G10K:	779 nodes
+G11K:	1365 nodes
+G12K:	2635 nodes
+G13K:	4631 nodes
+G14K:	8963 nodes
+G15K:	15779 nodes
+Iso type: 0
+=================================
+Testing - and [1, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	7 nodes
+G3K:	12 nodes
+G4K:	18 nodes
+G5K:	33 nodes
+G6K:	53 nodes
+G7K:	87 nodes
+G8K:	167 nodes
+G9K:	295 nodes
+G10K:	567 nodes
+G11K:	995 nodes
+G12K:	1922 nodes
+G13K:	3380 nodes
+G14K:	6543 nodes
+G15K:	11521 nodes
+Iso type: 0
+=================================
+Testing - and [2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	6 nodes
+G2K:	6 nodes (isomorphic)
+G3K:	6 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	8 nodes
+G2K:	19 nodes
+G3K:	55 nodes
+G4K:	152 nodes
+G5K:	1083 nodes
+G6K:	37569 nodes
+Iso type: 0
+=================================
+Testing [1, 2] and [1, 2, 3]
+Log:
+G0K:	4 nodes
+G1K:	13 nodes
+G2K:	39 nodes
+G3K:	83 nodes
+G4K:	229 nodes
+G5K:	618 nodes
+G6K:	2677 nodes
+G7K:	18332 nodes
+Iso type: 0
+=================================
+Testing [1, 2] and [1, 2, 4]
+Log:
+G0K:	4 nodes
+G1K:	9 nodes
+G2K:	26 nodes
+G3K:	92 nodes
+G4K:	259 nodes
+G5K:	984 nodes
+G6K:	22610 nodes
+Iso type: 0
+=================================
+Testing [1, 2] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	10 nodes
+G2K:	24 nodes
+G3K:	80 nodes
+G4K:	262 nodes
+G5K:	4207 nodes
+Iso type: 0
+=================================
+Testing [1, 2] and [1, 2][3, 4]
+Log:
+G0K:	4 nodes
+G1K:	11 nodes
+G2K:	35 nodes
+G3K:	78 nodes
+G4K:	106 nodes
+G5K:	106 nodes (isomorphic)
+G6K:	106 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 3] and [1, 2, 3]
+Log:
+G0K:	4 nodes
+G1K:	10 nodes
+G2K:	21 nodes
+G3K:	68 nodes
+G4K:	163 nodes
+G5K:	949 nodes
+G6K:	33249 nodes
+Iso type: 0
+=================================
+Testing [1, 3] and [1, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	7 nodes
+G3K:	12 nodes
+G4K:	18 nodes
+G5K:	33 nodes
+G6K:	53 nodes
+G7K:	87 nodes
+G8K:	167 nodes
+G9K:	295 nodes
+G10K:	567 nodes
+G11K:	995 nodes
+G12K:	1922 nodes
+G13K:	3380 nodes
+G14K:	6543 nodes
+G15K:	11521 nodes
+Iso type: 0
+=================================
+Testing [1, 3] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	8 nodes
+G2K:	19 nodes
+G3K:	55 nodes
+G4K:	152 nodes
+G5K:	1083 nodes
+G6K:	37569 nodes
+Iso type: 0
+=================================
+Testing [1, 3] and [1, 3][2, 4]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	5 nodes (isomorphic)
+G3K:	5 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 4] and [1, 2, 4]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	11 nodes
+G3K:	14 nodes
+G4K:	20 nodes
+G5K:	31 nodes
+G6K:	36 nodes
+G7K:	42 nodes
+G8K:	46 nodes
+G9K:	59 nodes
+G10K:	71 nodes
+G11K:	95 nodes
+G12K:	110 nodes
+G13K:	146 nodes
+G14K:	177 nodes
+G15K:	244 nodes
+Iso type: 0
+=================================
+Testing [1, 4] and [1, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	6 nodes
+G2K:	8 nodes
+G3K:	8 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	9 nodes
+G2K:	20 nodes
+G3K:	42 nodes
+G4K:	76 nodes
+G5K:	417 nodes
+G6K:	3171 nodes
+Iso type: 0
+=================================
+Testing [1, 4] and [1, 4][2, 3]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	9 nodes
+G3K:	9 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [2, 3] and [1, 2, 3]
+Log:
+G0K:	4 nodes
+G1K:	11 nodes
+G2K:	36 nodes
+G3K:	114 nodes
+G4K:	420 nodes
+G5K:	1665 nodes
+G6K:	13882 nodes
+Iso type: 0
+=================================
+Testing [2, 3] and [2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	14 nodes
+G3K:	19 nodes
+G4K:	19 nodes (isomorphic)
+G5K:	19 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [2, 3] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	9 nodes
+G2K:	32 nodes
+G3K:	80 nodes
+G4K:	322 nodes
+G5K:	1522 nodes
+G6K:	14932 nodes
+Iso type: 0
+=================================
+Testing [2, 3] and [1, 4][2, 3]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	12 nodes
+G3K:	20 nodes
+G4K:	26 nodes
+G5K:	41 nodes
+G6K:	61 nodes
+G7K:	95 nodes
+G8K:	175 nodes
+G9K:	303 nodes
+G10K:	575 nodes
+G11K:	1003 nodes
+G12K:	1930 nodes
+G13K:	3388 nodes
+G14K:	6551 nodes
+G15K:	11529 nodes
+Iso type: 0
+=================================
+Testing [2, 4] and [1, 2, 4]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	13 nodes
+G3K:	25 nodes
+G4K:	38 nodes
+G5K:	87 nodes
+G6K:	282 nodes
+G7K:	1418 nodes
+G8K:	11151 nodes
+Iso type: 0
+=================================
+Testing [2, 4] and [2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	10 nodes
+G3K:	19 nodes
+G4K:	35 nodes
+G5K:	67 nodes
+G6K:	128 nodes
+G7K:	389 nodes
+G8K:	1539 nodes
+G9K:	14528 nodes
+Iso type: 0
+=================================
+Testing [2, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	22 nodes
+G3K:	70 nodes
+G4K:	272 nodes
+G5K:	1888 nodes
+G6K:	16561 nodes
+Iso type: 0
+=================================
+Testing [2, 4] and [1, 3][2, 4]
+Log:
+G0K:	4 nodes
+G1K:	6 nodes
+G2K:	9 nodes
+G3K:	13 nodes
+G4K:	13 nodes (isomorphic)
+G5K:	13 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [3, 4] and [1, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	5 nodes
+G2K:	7 nodes
+G3K:	12 nodes
+G4K:	18 nodes
+G5K:	33 nodes
+G6K:	53 nodes
+G7K:	87 nodes
+G8K:	167 nodes
+G9K:	295 nodes
+G10K:	567 nodes
+G11K:	995 nodes
+G12K:	1922 nodes
+G13K:	3380 nodes
+G14K:	6543 nodes
+G15K:	11521 nodes
+Iso type: 0
+=================================
+Testing [3, 4] and [2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	6 nodes
+G2K:	6 nodes (isomorphic)
+G3K:	6 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [3, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	8 nodes
+G2K:	19 nodes
+G3K:	55 nodes
+G4K:	152 nodes
+G5K:	1083 nodes
+G6K:	37569 nodes
+Iso type: 0
+=================================
+Testing [3, 4] and [1, 2][3, 4]
+Log:
+G0K:	4 nodes
+G1K:	8 nodes
+G2K:	12 nodes
+G3K:	22 nodes
+G4K:	34 nodes
+G5K:	64 nodes
+G6K:	104 nodes
+G7K:	172 nodes
+G8K:	332 nodes
+G9K:	588 nodes
+G10K:	1132 nodes
+G11K:	1988 nodes
+G12K:	3842 nodes
+G13K:	6758 nodes
+G14K:	13084 nodes
+G15K:	23040 nodes
+Iso type: 0
+=================================
+Testing [1, 2, 3] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	13 nodes
+G2K:	52 nodes
+G3K:	237 nodes
+G4K:	860 nodes
+G5K:	11587 nodes
+Iso type: 0
+=================================
+Testing [1, 2, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	8 nodes
+G2K:	18 nodes
+G3K:	33 nodes
+G4K:	56 nodes
+G5K:	94 nodes
+G6K:	163 nodes
+G7K:	453 nodes
+G8K:	1693 nodes
+G9K:	15089 nodes
+Iso type: 0
+=================================
+Testing [1, 3, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	9 nodes
+G2K:	20 nodes
+G3K:	42 nodes
+G4K:	76 nodes
+G5K:	417 nodes
+G6K:	3171 nodes
+Iso type: 0
+=================================
+Testing [2, 3, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	20 nodes
+G3K:	57 nodes
+G4K:	209 nodes
+G5K:	1546 nodes
+G6K:	40749 nodes
+Iso type: 0
+=================================
+Testing [1, 2][3, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	12 nodes
+G2K:	43 nodes
+G3K:	191 nodes
+G4K:	2100 nodes
+Iso type: 0
+=================================
+Testing [1, 3][2, 4] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	7 nodes
+G2K:	22 nodes
+G3K:	70 nodes
+G4K:	272 nodes
+G5K:	1888 nodes
+G6K:	16561 nodes
+Iso type: 0
+=================================
+Testing [1, 4][2, 3] and [1, 2, 3, 4]
+Log:
+G0K:	4 nodes
+G1K:	10 nodes
+G2K:	30 nodes
+G3K:	63 nodes
+G4K:	162 nodes
+G5K:	591 nodes
+G6K:	3833 nodes
+G7K:	60236 nodes
+Iso type: 0

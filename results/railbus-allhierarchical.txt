@@ -1,0 +1,54 @@
+All hierarchical versions of the Railbus game
+States = (0, 1, 2)
+=================================
+Testing - and [0, 1]
+Log:
+G0K:	3 nodes
+G1K:	4 nodes
+G2K:	4 nodes (isomorphic)
+G3K:	4 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 2]
+Log:
+G0K:	3 nodes
+G1K:	4 nodes
+G2K:	4 nodes (isomorphic)
+G3K:	4 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [1, 2]
+Log:
+G0K:	3 nodes
+G1K:	3 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 1] and [0, 1, 2]
+Log:
+G0K:	3 nodes
+G1K:	3 nodes
+G2K:	3 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [0, 2] and [0, 1, 2]
+Log:
+G0K:	3 nodes
+G1K:	3 nodes
+G2K:	3 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing [1, 2] and [0, 1, 2]
+Log:
+G0K:	3 nodes
+G1K:	3 nodes
+G2K:	3 nodes (isomorphic)
+G3K:	3 nodes (isomorphic with equivalent observations)
+Iso type: 2
+=================================
+Testing - and [0, 1, 2]
+Log:
+G0K:	3 nodes
+G1K:	4 nodes
+G2K:	4 nodes (isomorphic)
+G3K:	4 nodes (isomorphic with equivalent observations)
+Iso type: 2
