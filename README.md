@@ -1,4 +1,5 @@
-# kexjobb-saravid-emiros-mkbsc
+# Stabilization in hierarchical multi-agent games against nature
+##### Emilia Rosenqvist and Sara Videfors
 To not clog our thesis with all the results of our experiments, they are gathered here. A link to the thesis will be added here later on!
 
 ## All hierarchical version outputs
